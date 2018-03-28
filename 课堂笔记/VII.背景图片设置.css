@@ -1,0 +1,6 @@
+背景图片设置案例：
+.hero {
+    background-image: url("image/xcom2.jpg"); /*指定url*/
+    background-size: cover;                   /*设置图片显示方式，cover为适应，contain为平铺*/
+    background-position: center top;          /*设定图片位置，center top的意思为以定位图片中心，并优先显示上方*/
+}
